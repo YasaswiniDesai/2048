@@ -3,8 +3,30 @@ body {
     text-align: center;
 }
 
-hr {
-    width: 500px;
+h1 {
+    color: #776e65;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+.score-container{
+    position: relative;
+    display: inline-block;
+    height: 45px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 6px;
+    color: #f4f1ee;
+    background-color: #bbada0;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 47px;
+}
+
+.score-container h2{
+    margin: 0;
+    font-size: 20px;
 }
 
 #board {
